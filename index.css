@@ -46,6 +46,7 @@ body {
 	margin:121px auto;
 	border-radius: 15px;
 	box-shadow:0 15px 17px var(--clr-shadow-blue);
+	padding-bottom: 41px;
 }
 
 img {
@@ -79,7 +80,7 @@ img {
 .plan_container {
 	display: flex;
 	align-items: center;
-	margin:0px 55px;
+	margin:0px 65px;
 	border-radius: 11px;
 	background-color: hsl(225, 100%, 96%, 1);
 	padding: 13px;
@@ -108,7 +109,7 @@ img {
 }
 
 button {
-	margin:25px 55px;
+	margin:25px 65px;
 	border-radius: 6px;
 	font-weight: 700;
 	font-size: 0.85rem;
@@ -127,7 +128,6 @@ button:hover {
 
 a {
 	color:  var(--clr-desaturated-blue);
-	margin-bottom: 31px;
 }
 
 a:hover {
@@ -140,13 +140,22 @@ a:hover {
 		flex-direction: column;
 		justify-content: center;
 		max-width: 412px;
-		padding-bottom: 5rem;
+		padding-bottom: 4rem;
 		margin: 71px 21px;
+	}
+	.plan_container, button {
+		margin-left: 25px;
+		margin-right: 25px ;
 	}
 	.plan_container {
 		padding: 5px;
 	}
 	.plan_container a {
-		margin-left: 12px;
+		margin: auto 20px auto 66px;
 	}
+
+	.order_container p {
+		margin:0 25px 20px 25px ;
+	}
+
 }
