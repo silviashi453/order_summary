@@ -1,0 +1,134 @@
+/*89()7&0*/
+
+:root {
+	--clr-pale-blue: hsl(225, 100%, 94%, 1);
+	--clr-shadow-blue: rgba(199, 213, 255, 1);
+	--clr-bright-blue: hsl(245, 75%, 52%);
+	--clr-verypale-blue: hsl(225, 100%, 98%) ;
+	--clr-desaturated-blue: hsl(224, 23%, 55%);
+  	--clr-dark-blue: hsl(223, 47%, 23%);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+
+a,
+button{
+	text-decoration: none;
+}
+
+img, 
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	font-family: "Red Hat Display";
+	text-align: center;
+	background-image: url("D:/Projek/Order_summary/Assets/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-color: var(--clr-pale-blue);
+	background-size: contain;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 79vh;
+	max-width: 421px;
+	background-color: var(--clr-verypale-blue);
+	margin: 71px auto;
+	border-radius: 15px;
+	box-shadow:0 15px 17px var(--clr-shadow-blue);
+}
+
+img {
+	max-width:100%;
+	border-radius: 15px 15px 0 0;
+}
+
+.order_container {
+	margin: auto;
+	margin-top:21px;
+	margin-bottom:0px;
+	text-align: center;
+}
+
+.order_container p {
+	font-size: 1rem;
+	line-height: 25px;
+	margin:0 50px 20px 50px ;
+	font-weight: 500;
+	color: var(--clr-desaturated-blue);
+}
+
+.order_container h2 {
+	font-weight: 900;
+	line-height: 1;
+	font-size: 1.6rem;
+	color: var(--clr-dark-blue);
+	margin-bottom: 15px;
+}
+
+.plan_container {
+	display: flex;
+	align-items: center;
+	margin:0px 55px;
+	border-radius: 11px;
+	background-color: hsl(225, 100%, 96%, 1);
+}
+
+.plan_container img {
+	margin: 15px 15px;
+}
+
+.plan_container a {
+	margin: auto 10px auto 80px;
+	color: var(--clr-bright-blue);
+	font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.plan_container p {
+	font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.plan_container h2 {
+	color: var(--clr-dark-blue);
+	font-weight: 900;
+	font-size: 0.8rem;
+}
+
+button {
+	margin:25px 55px;
+	border-radius: 6px;
+	font-weight: 700;
+	font-size: 0.85rem;
+	border:1px solid var(--clr-bright-blue);
+	background-color: var(--clr-bright-blue);
+	color: var(--clr-verypale-blue);
+	padding: 15px 0px;
+	box-shadow: 0 15px 15px var(--clr-shadow-blue);
+}
+
+button:hover {
+	border: 1px solid var(--clr-verypale-blue);
+	background-color: var(--clr-verypale-blue);
+	color: var(--clr-bright-blue);
+}
+
+a {
+	margin-bottom: 35px;
+	color:  var(--clr-desaturated-blue);
+}
+
+a:hover {
+	color: var(--clr-dark-blue);
+}
